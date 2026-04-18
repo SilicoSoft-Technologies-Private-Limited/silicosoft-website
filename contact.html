@@ -79,7 +79,7 @@
 
         <div class="info-block">
           <h4>Phone</h4>
-          <p>+91 &nbsp;95901 66093 &nbsp;••••••• <span style="color: var(--muted); font-size: 0.88rem;">(Mon–Sat, 10:00–19:00 IST)</span></p>
+          <p>+91 &nbsp;651 &nbsp;••••••• <span style="color: var(--muted); font-size: 0.88rem;">(Mon–Sat, 10:00–19:00 IST)</span></p>
         </div>
 
         <div class="info-block">
@@ -96,7 +96,22 @@
         <div class="eyebrow" style="margin-bottom: 1rem;">Enquiry</div>
         <h3 style="font-family: var(--serif); margin-bottom: 2rem;">Tell us what<br /><span class="italic">you're building.</span></h3>
 
-        <form data-contact>
+        <form action="https://api.web3forms.com/submit" method="POST">
+          <!-- Web3Forms access key — replace with your own key from web3forms.com -->
+          <input type="hidden" name="access_key" value="YOUR-ACCESS-KEY-HERE" />
+
+          <!-- Subject line in the email you receive -->
+          <input type="hidden" name="subject" value="New enquiry from silicosoft.in" />
+
+          <!-- Sender name shown in the email (your site's name) -->
+          <input type="hidden" name="from_name" value="SilicoSoft Website" />
+
+          <!-- Redirect the user to a thank-you page after submit (optional) -->
+          <input type="hidden" name="redirect" value="https://silicosoft.in/thank-you.html" />
+
+          <!-- Honeypot anti-spam field — hidden from humans, bots will fill it and get filtered -->
+          <input type="checkbox" name="botcheck" style="display:none" tabindex="-1" autocomplete="off" />
+
           <div class="form-row">
             <div class="field">
               <label for="name">Your name</label>
@@ -122,9 +137,9 @@
           <div class="field">
             <label for="interest">I'm interested in</label>
             <select id="interest" name="interest">
-              <option>Hospital Information System (SilicoMed)</option>
-              <option>College Management (SilicoCampus)</option>
-              <option>Payroll &amp; HRMS (SilicoPay)</option>
+              <option>Hospital Information System (SiliMed)</option>
+              <option>College Management (SiliCampus)</option>
+              <option>Payroll &amp; HRMS (SiliPay)</option>
               <option>Custom software engineering</option>
               <option>AI &amp; applied research</option>
               <option>Support for an existing deployment</option>

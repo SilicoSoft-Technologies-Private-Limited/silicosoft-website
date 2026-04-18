@@ -26,25 +26,6 @@ document.addEventListener('DOMContentLoaded', () => {
     io.observe(el);
   });
 
-  // Smooth form submission feedback (demo)
-  const form = document.querySelector('form[data-contact]');
-  if (form) {
-    form.addEventListener('submit', (e) => {
-      e.preventDefault();
-      const btn = form.querySelector('button[type="submit"]');
-      const original = btn.textContent;
-      btn.textContent = 'Sending...';
-      btn.disabled = true;
-      setTimeout(() => {
-        btn.textContent = '✓ Message received';
-        btn.style.background = '#C8612A';
-        form.reset();
-        setTimeout(() => {
-          btn.textContent = original;
-          btn.style.background = '';
-          btn.disabled = false;
-        }, 2600);
-      }, 900);
-    });
-  }
+  // Note: contact form now submits directly to Web3Forms via the form's action attribute.
+  // No JS intercept needed.
 });
