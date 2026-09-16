@@ -44,4 +44,13 @@ const header=document.querySelector('.site-header');const menuBtn=document.query
   if(!document.querySelector('.site-copyright-watermark')){
     const watermark=document.createElement('div');watermark.className='site-copyright-watermark';watermark.textContent='© SilicoSoft Technologies';document.body.appendChild(watermark);
   }
+
+  const contactEmail='it@silicosoft.in';
+  document.querySelectorAll('a[href^="mailto:hello@silicosoft.in"]').forEach(a=>{
+    a.href=a.href.replace('hello@silicosoft.in',contactEmail);
+    if(a.textContent.trim()==='hello@silicosoft.in')a.textContent=contactEmail;
+    const b=a.querySelector('b');if(b&&b.textContent.trim()==='hello@silicosoft.in')b.textContent=contactEmail;
+  });
+  document.querySelectorAll('form[action="https://formsubmit.co/hello@silicosoft.in"]').forEach(form=>form.action='https://formsubmit.co/'+contactEmail);
+  document.querySelectorAll('p,span,b,div').forEach(el=>{if(el.children.length===0&&el.textContent.includes('hello@silicosoft.in'))el.textContent=el.textContent.replaceAll('hello@silicosoft.in',contactEmail)});
 })();
