@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://silicosoft.in/sitemap.xml
