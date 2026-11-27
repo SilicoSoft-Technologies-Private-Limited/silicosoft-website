@@ -59,3 +59,7 @@
 .product-evidence{margin-top:65px}.evidence-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}.evidence-grid article{border:1px solid var(--line);border-radius:16px;padding:24px;background:#f8fafa}.evidence-grid span{font-size:10px;text-transform:uppercase;letter-spacing:.13em;color:var(--cyan2);font-weight:800}.evidence-grid p{color:var(--muted);line-height:1.65;font-size:13px;margin:10px 0 0}
 @media(max-width:900px){.flagship-grid,.about-expanded,.roadmap-card{grid-template-columns:1fr}.impact-grid{grid-template-columns:1fr 1fr}.flagship-logo{min-height:360px}.roadmap-card{align-items:start}}
 @media(max-width:700px){.impact-grid,.innovation-grid,.evidence-grid{grid-template-columns:1fr}.flagship-logo{padding:30px}.roadmap-card{padding:35px 25px}.product-hero{padding-top:130px}}
+
+.video-embed{position:relative;width:100%;aspect-ratio:16/9;border-radius:18px;overflow:hidden;background:#000;box-shadow:0 20px 50px rgba(0,0,0,.28)}
+.video-embed iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.video-link{align-self:flex-start;color:#fff}
