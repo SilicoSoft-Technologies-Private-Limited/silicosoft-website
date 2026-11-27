@@ -2,3 +2,22 @@
 @media(max-width:1000px){.desktop-nav,.desktop-cta{display:none}.menu-button{display:grid;gap:6px;background:none;border:0}.menu-button span{width:24px;height:2px;background:white}.mobile-menu{display:flex;position:fixed;z-index:49;inset:72px 0 auto 0;background:#07111f;flex-direction:column;padding:25px;transform:translateY(-130%);transition:.3s;border-bottom:1px solid rgba(255,255,255,.1)}.mobile-menu.open{transform:none}.mobile-menu a{color:white;text-decoration:none;padding:13px 0;border-bottom:1px solid rgba(255,255,255,.08)}.hero{grid-template-columns:1fr;padding-top:130px}.hero-visual{max-width:700px;margin:10px auto 80px;width:100%}.section-head{grid-template-columns:1fr}.about-card,.contact-wrap{grid-template-columns:1fr}.footer-main{grid-template-columns:1fr 1fr}.footer-links{grid-column:1/-1}.scroll-cue{display:none}}@media(max-width:700px){.section{padding:88px 20px}.site-header{padding:0 20px}.hero{padding-top:120px}.hero h1{font-size:49px}.hero-actions{align-items:flex-start;flex-direction:column;gap:12px}.trust-row{grid-template-columns:1fr 1fr}.hero-visual{margin-top:25px}.visual-shell{transform:none}.visual-body{min-height:390px}.dashboard{padding:18px}.metric-grid{grid-template-columns:1fr 1fr}.metric-grid article:nth-child(3){display:none}.fc-one{left:-7px;bottom:-20px}.fc-two{right:-5px;top:-28px}.product-grid{grid-template-columns:1fr}.product-card{padding:28px;min-height:500px}.product-card ul{grid-template-columns:1fr}.section-head{margin-bottom:40px}.industry-tabs{overflow-x:auto;gap:24px}.industry-tabs button{white-space:nowrap}.industry-panel{grid-template-columns:1fr}.industry-copy{padding:35px 26px}.industry-art{min-height:350px}.timeline{margin-left:0}.timeline-step{grid-template-columns:34px 30px 1fr;gap:10px}.about-card{padding:38px 25px;gap:40px}.about-stats{grid-template-columns:1fr 1fr}.form-row{grid-template-columns:1fr}.lead-form{padding:25px 18px}.footer-main{grid-template-columns:1fr}.footer-links{grid-template-columns:1fr 1fr}.footer-bottom{gap:15px;flex-direction:column}.capability{grid-template-columns:40px 1fr 25px}.capability p{font-size:13px}}
 
 .brand-logo{height:46px;width:auto;max-width:170px;object-fit:contain;display:block}.brand-wordmark{display:none}.product-brand sup,.product-card h3 sup{font-size:.38em;vertical-align:super;margin-left:.08em;line-height:0}@media(max-width:700px){.brand-logo{height:40px;max-width:145px}}
+
+/* Official trademark logo presentation */
+.sr-only{position:absolute!important;width:1px!important;height:1px!important;padding:0!important;margin:-1px!important;overflow:hidden!important;clip:rect(0,0,0,0)!important;white-space:nowrap!important;border:0!important}
+.product-logo-heading{min-height:72px;display:flex;align-items:center;margin:22px 0 15px!important}
+.product-logo{display:block;width:auto;max-width:min(320px,92%);max-height:76px;object-fit:contain;object-position:left center}
+.product-featured .product-logo{filter:none}
+.product-logo-raksharath{max-height:82px}
+.product-logo-ayuvyahr{max-height:76px}
+.product-page-logo-wrap{margin:28px 0 24px;display:flex;align-items:center;min-height:105px}
+.product-page-logo{display:block;width:auto;max-width:min(520px,88vw);max-height:130px;object-fit:contain;object-position:left center}
+.raksharath-page-logo{max-height:145px}
+.ayuvyahr-page-logo{max-height:130px}
+.trademark-note{border-top:1px solid rgba(255,255,255,.08);margin-top:18px;padding-top:18px;color:#506974;font-size:9px;line-height:1.6;max-width:950px}
+@media(max-width:700px){
+  .product-logo-heading{min-height:58px}
+  .product-logo{max-height:62px;max-width:88%}
+  .product-page-logo-wrap{min-height:80px}
+  .product-page-logo{max-height:100px;max-width:90vw}
+}
