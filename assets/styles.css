@@ -21,3 +21,41 @@
   .product-page-logo-wrap{min-height:80px}
   .product-page-logo{max-height:100px;max-width:90vw}
 }
+
+/* Corporate enhancement sections */
+.product-hero{min-height:68vh;background:radial-gradient(circle at 80% 20%,rgba(54,214,194,.16),transparent 30%),#07111f;color:#fff;padding-top:160px}
+.product-hero .product-content{max-width:1180px;margin:auto}
+.product-hero h1{font:700 clamp(48px,7vw,86px)/1.02 var(--display);letter-spacing:-.055em;max-width:1080px;margin:25px 0}
+.product-hero p{font-size:19px;line-height:1.7;color:#9ab0b9;max-width:820px}
+.product-content{max-width:1180px;margin:auto}
+.flagship{background:linear-gradient(180deg,#f6f9f9,#fff)}
+.flagship-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:7vw;align-items:center}
+.flagship-grid h2{font-size:clamp(40px,4.8vw,68px)}
+.flagship-grid p{color:var(--muted);line-height:1.75}
+.flagship-logo{background:#07111f;border-radius:28px;padding:50px;min-height:460px;display:flex;flex-direction:column;justify-content:center;gap:30px}
+.flagship-logo>img{max-width:100%;max-height:190px;object-fit:contain}
+.video-placeholder{border:1px dashed rgba(255,255,255,.22);border-radius:17px;padding:26px;color:#fff}
+.video-placeholder span,.video-placeholder small{display:block}.video-placeholder small{color:#7f98a3;margin-top:8px;line-height:1.5}
+.flagship-note{margin-top:28px;padding:20px;border-left:3px solid var(--cyan2);background:#eef8f6;border-radius:0 12px 12px 0}
+.flagship-note b,.flagship-note span{display:block}.flagship-note span{color:var(--muted);font-size:13px;line-height:1.6;margin-top:6px}
+.dark-link{color:var(--ink)}
+.about-expanded{display:grid;grid-template-columns:.9fr 1.1fr;gap:50px;align-items:start}
+.about-story{font-size:17px;line-height:1.8;color:var(--muted)}
+.vision-mission{display:grid;gap:16px}
+.vision-mission article{background:#fff;border:1px solid var(--line);border-radius:18px;padding:30px}
+.vision-mission article>span{font-size:10px;letter-spacing:.15em;text-transform:uppercase;color:var(--cyan2);font-weight:800}
+.vision-mission h3{font:700 26px var(--display);margin:12px 0}
+.vision-mission p,.vision-mission li{color:var(--muted);line-height:1.65;font-size:13px}
+.vision-mission ul{padding-left:18px}
+.impact-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:38px}
+.impact-grid article{background:#fff;border:1px solid var(--line);border-radius:17px;padding:25px;min-height:145px}
+.dark .impact-grid article{background:rgba(255,255,255,.04);border-color:rgba(255,255,255,.1)}
+.impact-grid strong,.impact-grid span{display:block}.impact-grid strong{font:700 19px var(--display)}.impact-grid span{margin-top:10px;color:var(--muted);line-height:1.55;font-size:12px}.dark .impact-grid span{color:#8ca1aa}
+.roadmap-card{margin-top:55px;background:linear-gradient(135deg,#07111f,#0d2c39);color:#fff;border-radius:26px;padding:55px;display:grid;grid-template-columns:1fr auto;gap:40px;align-items:end}
+.roadmap-card h2{font-size:clamp(36px,4vw,58px);margin:17px 0}.roadmap-card p{color:#90a5ad;line-height:1.7;max-width:850px}
+.innovation-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}
+.innovation-grid article{padding:28px;border:1px solid var(--line);border-radius:17px;background:#fff}.innovation-grid article>span{color:var(--cyan2);font-weight:800;font-size:11px}.innovation-grid h3{font:700 22px var(--display);margin:12px 0}.innovation-grid p{color:var(--muted);line-height:1.6;font-size:13px}
+.careers-status{margin-top:55px;padding:38px;border:1px solid var(--line);border-radius:20px;background:#f4f7f7}.careers-status h2{font-size:clamp(28px,3vw,42px)}.careers-status p{color:var(--muted);line-height:1.7}.careers-status a{color:var(--cyan2);font-weight:700}
+.product-evidence{margin-top:65px}.evidence-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}.evidence-grid article{border:1px solid var(--line);border-radius:16px;padding:24px;background:#f8fafa}.evidence-grid span{font-size:10px;text-transform:uppercase;letter-spacing:.13em;color:var(--cyan2);font-weight:800}.evidence-grid p{color:var(--muted);line-height:1.65;font-size:13px;margin:10px 0 0}
+@media(max-width:900px){.flagship-grid,.about-expanded,.roadmap-card{grid-template-columns:1fr}.impact-grid{grid-template-columns:1fr 1fr}.flagship-logo{min-height:360px}.roadmap-card{align-items:start}}
+@media(max-width:700px){.impact-grid,.innovation-grid,.evidence-grid{grid-template-columns:1fr}.flagship-logo{padding:30px}.roadmap-card{padding:35px 25px}.product-hero{padding-top:130px}}
