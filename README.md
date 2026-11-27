@@ -11,7 +11,7 @@ A responsive static website designed for GitHub Pages. It includes a scroll-driv
 - `assets/script.js` — menu, reveal animation and industry tabs
 
 ## Enquiry form
-The form uses FormSubmit and sends submissions to `hello@silicosoft.in`. On the first live submission, FormSubmit normally sends an activation email to that mailbox. Approve it once. For production-grade control, replace the form action with a SilicoSoft API endpoint and add server-side spam protection, database logging and notification workflows.
+The form uses FormSubmit and sends submissions to `it@silicosoft.in`. On the first live submission, FormSubmit normally sends an activation email to that mailbox. Approve it once. For production-grade control, replace the form action with a SilicoSoft API endpoint and add server-side spam protection, database logging and notification workflows.
 
 ## Deploy to GitHub Pages
 Copy these files to the repository root, retain the existing `CNAME`, commit and push to `main`. In GitHub: Settings → Pages → Deploy from branch → `main` / root.
