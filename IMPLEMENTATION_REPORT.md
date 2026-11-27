@@ -46,17 +46,23 @@ No clearly named Vidyara EMS™ or SilicoMed™ logo files were found during the
 
 ## Management inputs still required
 
-1. **RakshaRath demonstration video URL** approved for public embedding.
-2. **Verified CIN** from the Certificate of Incorporation.
-3. **Verified registered office address** approved for public display.
-4. Any other statutory disclosure that management wants published.
-5. **Approved Vidyara EMS™ logo file**, if already designed.
-6. **Approved SilicoMed™ logo file**, if already designed.
-7. **Approved product screenshots** for each product, with confirmation that no confidential/customer/patient/employee information is visible.
-8. Any approved product demonstration videos other than RakshaRath.
-9. Verified current development/deployment status for ArogyaVeer™, AyuvyaHR™, Vidyara EMS™, SilicoMed™ HMIS and SilicoMed™ LIMS.
-10. Current approved job vacancies, if Careers should list openings.
-11. DPIIT recognition number/date/approved branding only after recognition is formally granted.
+1. **Approved Vidyara EMS™ logo file** — not currently available.
+2. **Approved SilicoMed™ logo file** — not currently available.
+3. **Approved product screenshots** — not available at present.
+4. Any additional approved product demonstration videos, if management wants them published.
+5. Current approved job vacancies, if Careers should list openings.
+6. DPIIT recognition number/date/approved branding only after recognition is formally granted.
+
+## Management inputs received and implemented
+
+- RakshaRath™ YouTube demonstration video: https://youtu.be/RyphqTSXC_I
+- CIN: U62011JH2026PTC027388
+- Registered Office: Ranchi Smart City, Jharkhand, India
+- ArogyaVeer™ status: Operational
+- AyuvyaHR™ status: Operational
+- Vidyara EMS™ status: Operational
+- SilicoMed™ – HMIS status: Operational
+- SilicoMed™ – LIMS status: Operational
 
 ## Production verification
 
@@ -86,11 +92,9 @@ No clearly named Vidyara EMS™ or SilicoMed™ logo files were found during the
 - Responsive design preservation
 
 ### Pending management input / production configuration
-- RakshaRath video
-- CIN and registered office
-- Missing product logos if applicable
-- Product screenshots/videos
-- Verified deployment-status statements
-- Approved vacancies
+- Missing Vidyara EMS™ logo
+- Missing SilicoMed™ logo
+- Product screenshots/videos not yet supplied
+- Approved vacancies not yet supplied
 - DPIIT recognition details after approval
 - Production GitHub Pages/custom-domain 404 resolution
